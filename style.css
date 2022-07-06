@@ -40,7 +40,11 @@ body{
     color: #ffffff;
     border-radius: 5px;
 }
+
+
 /* ------------Donate Today Section------------------ */
+
+
 #donate-today-container{
     margin-top: 20px;
     display: flex;
@@ -49,7 +53,6 @@ body{
     align-items: center;
 }
 #donate-today{
-    /* margin: 0 auto; */
     width: 50%;
     text-align: center;
     margin-top: 80px;
@@ -66,13 +69,11 @@ body{
     font-size: 18px;
     font-weight: 400;
     color: #707070;
-    /* width: 100%; */
     margin: 20px auto;
 }
 .box-container{
     display: flex;
     justify-content: space-between;
-    /* width: 50%; */
     width: 100%;
     margin: 0 auto;
     margin-top: 60px;
@@ -110,7 +111,7 @@ body{
     font-weight:700;
     color: #FF5959;
 }
-input{
+.input-text{
     border: none;
     width: 100%;
     padding: 20px 10px;
@@ -121,4 +122,118 @@ input{
     color: #B3B3B3;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
+}
+
+
+/* -------------Our Donate Plan--------------- */
+
+
+#our-donate-plan{
+    margin-top: 100px;
+}
+#our-donate-plan h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#our-donate-plan p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color:#707070;
+    ;
+}
+.text-center{
+    text-align: center;
+}
+.image-sizing{
+    width: 53px; 
+    height: 53px;
+}
+.h3-styling{
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.plan-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+}
+.plan-categories{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 360px;
+    padding: 0 20px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+/* ---------Get My Updates------------ */
+
+#my-updates{
+    margin: 150px 0;    
+}
+#my-updates h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+#my-updates p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#email-container{
+    background-color: #FFF4D6;
+    width: 60%;
+    height: 200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-email{
+    background-color: #D9D9D9;
+    font-size: 20px;
+    text-align: left;
+    padding: 17px 10px;
+    width: 275px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+
+/* -----------footer------------- */
+footer{
+    margin-top: 60px;
+    height: 177px;
+    width: 100%;
+    background-color: #0B0D17;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h3{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #D9DBE1;
 }
