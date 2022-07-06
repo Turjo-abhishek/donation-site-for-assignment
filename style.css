@@ -134,8 +134,10 @@ body {
 }
 #our-donate-plan p {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
   color: #707070;
+}
+.font-18{
+    font-size: 18px;
 }
 .text-center {
   text-align: center;
@@ -169,6 +171,7 @@ body {
   border-radius: 10px;
   text-align: justify;
 }
+
 /* ----------creative team---------------- */
 
 #creative-team{
