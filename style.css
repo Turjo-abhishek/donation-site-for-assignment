@@ -40,3 +40,85 @@ body{
     color: #ffffff;
     border-radius: 5px;
 }
+/* ------------Donate Today Section------------------ */
+#donate-today-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#donate-today{
+    /* margin: 0 auto; */
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#donate-today h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    padding: 10px ;
+}
+#donate-today p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    /* width: 100%; */
+    margin: 20px auto;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.grey-box{
+    width: 135px;
+    height: 123px;
+    background-color: #e1d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#donate-today .grey-box p{
+    font-size: 30px;
+    font-weight:700;
+    color: #585656;
+}
+#red-box {
+    width: 135px;
+    height: 123px;
+    background-color: #faabab;
+    border: 2px solid #FF5959;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+#red-box p{
+    font-size: 30px;
+    font-weight:700;
+    color: #FF5959;
+}
+input{
+    border: none;
+    width: 100%;
+    padding: 20px 10px;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B3B3B3;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
